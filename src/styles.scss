@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-color: #E0E0E0;
+}
+
+.fill-remaining-space {
+    flex: 1 1 auto;
+}
+
+.menu-spacer {
+    width: 15px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-blue {
+    background-color: #3f51b5;
+}
+
+.bg-smoke {
+    background-color: #F5F5F5;
+}
+
+.center {
+    display: inline !important;
+}
+
+.mat-card-header {
+    display: inline !important;
+    font-size: 130%;
+}
+
+.mat-card-content {
+    font-size: 120%;
+}
+.mat-card-footer {
+    margin: 0px !important;
+    font-size: 100%;
+}
