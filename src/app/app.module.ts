@@ -22,6 +22,7 @@ import { PostsComponent } from './posts/posts.component';
 import { EventsComponent } from './events/events.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { TreeComponent } from './tree/tree.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { TreeComponent } from './tree/tree.component';
     PostsComponent,
     EventsComponent,
     GalleryComponent,
-    TreeComponent
+    TreeComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
