@@ -18,12 +18,20 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { EventsService } from './events.service';
+import { PostsComponent } from './posts/posts.component';
+import { EventsComponent } from './events/events.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { TreeComponent } from './tree/tree.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    PostsComponent,
+    EventsComponent,
+    GalleryComponent,
+    TreeComponent
   ],
   imports: [
     BrowserModule,

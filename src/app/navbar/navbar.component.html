@@ -1,9 +1,13 @@
 <mat-toolbar color="primary">
     <mat-toolbar-row>
-        <span routerLink="/home">Rich's Template</span>
+        <span routerLink="/home">eodice.com</span>
         <span class="menu-spacer"></span>
         <div fxShow.gt-sm fxHide.lt-md>
             <a mat-button [routerLink]="'/home'" routerLinkActive="text-yellow" class="hidden-sm-down">Home</a>
+            <a mat-button [routerLink]="'/posts'" routerLinkActive="text-yellow" class="hidden-sm-down">Posts</a>
+            <a mat-button [routerLink]="'/events'" routerLinkActive="text-yellow" class="hidden-sm-down">Events</a>
+            <a mat-button [routerLink]="'/gallery'" routerLinkActive="text-yellow" class="hidden-sm-down">Gallery</a>
+            <a mat-button [routerLink]="'/tree'" routerLinkActive="text-yellow" class="hidden-sm-down">Tree</a>
         </div>
         <span class="fill-remaining-space"></span>
         <span fxShow.gt-sm fxHide.lt-md>
@@ -14,6 +18,10 @@
         </button>
         <mat-menu #appMenu="matMenu">
             <button mat-menu-item [routerLink]="'/home'">Home</button>
+            <button mat-menu-item [routerLink]="'/posts'">Posts</button>
+            <button mat-menu-item [routerLink]="'/events'">Events</button>
+            <button mat-menu-item [routerLink]="'/gallery'">Gallery</button>
+            <button mat-menu-item [routerLink]="'/tree'">Tree</button>
             <button mat-menu-item (click)="sendEmail();">Help</button>
         </mat-menu>
     </mat-toolbar-row>
